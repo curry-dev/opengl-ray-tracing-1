@@ -2,11 +2,16 @@
 
 > [!NOTE]
 > This repository holds the completed result of my project but the source code.
-I cannot post the source code publicly here to avoid plagiarism, so I put it in another private repository. Although, I can show it upon request.
+> I cannot post the source code publicly here to avoid plagiarism, so I put it in another private repository. Although, I can show it upon request.
 
 
 
-OVERVIEW -
+### RESULT
+
+
+
+
+### OVERVIEW
 In this assignment, you will be building a ray tracer. Your ray tracer will be able to handle opaque surfaces with lighting and shadows. Provided for you will be starter code that will load scene data from a file.
 
 Step 1: Uniformly send out rays from the camera location. Since the camera does not have to move, you can assume that its location is (0,0,0). You should use backwards ray tracing where rays are sent from the camera, one ray per pixel. The final images should be 640x480, but for debugging you should use smaller resolutions with faster rendering times. For example, if you halve each dimension, you would send out 1/4th of the number of rays. You can use the field of view of 60 degrees.
@@ -19,7 +24,7 @@ Step 4: Create still images showing off your ray tracer.
 
 
 
-ILLUMINATION -
+### ILLUMINATION
 
 At each intersection point, you need to first determine if it is in shadow, separately for each light source. You do this by launching a shadow ray to each of the lights. If the point is in shadow, its color with respect to that light should be (0,0,0), that is, black. If the point is not in shadow, use Phong shading to determine the color of the point with respect to that light:
 
@@ -31,7 +36,7 @@ In order to compute I, you must determine the normal N at the intersection point
 
 
 
-THE PROJECT INCLUDES -
+### THE PROJECT INCLUDES
 
 1. Triangle intersection
 2. Sphere intersection
@@ -42,7 +47,7 @@ THE PROJECT INCLUDES -
 
 
 
-SCENE DESCRIPTION FORMAT -
+### SCENE DESCRIPTION FORMAT
 
 The first line is the number of objects in the file. There are three types of objects supported: lights, triangles, and spheres. Color values range from 0-1. You can use our provided scenes, or create your own scenes.
 Ambient Light (3 floats).
