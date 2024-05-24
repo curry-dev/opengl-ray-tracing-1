@@ -8,10 +8,18 @@
 
 ### RESULT
 
+![](/test1.jpg)
+![](/test2.jpg)
+![](/table.jpg)
+![](/siggraph.jpg)
+![](/toy.jpg)
+![](/snow.jpg)
+![](/spheres.jpg)
 
 
 
 ### OVERVIEW
+
 In this assignment, you will be building a ray tracer. Your ray tracer will be able to handle opaque surfaces with lighting and shadows. Provided for you will be starter code that will load scene data from a file.
 
 Step 1: Uniformly send out rays from the camera location. Since the camera does not have to move, you can assume that its location is (0,0,0). You should use backwards ray tracing where rays are sent from the camera, one ray per pixel. The final images should be 640x480, but for debugging you should use smaller resolutions with faster rendering times. For example, if you halve each dimension, you would send out 1/4th of the number of rays. You can use the field of view of 60 degrees.
@@ -87,3 +95,13 @@ The following is an example of a scene description file. It sets a gray sphere o
 		  pos: 0 0 0
 		  col: 1 1 1
 
+Here is the file corresponding to the above example: [test1.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/test1.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/test1-solution.jpg)
+
+### MORE EXAMPLES
+
+Basic test scene with a triangle, ground plane and sphere: [test2.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/test2.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/test2-solution.jpg)
+Five spheres: [spheres.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/spheres.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/spheres-solution.jpg)
+A table and two boxes: [table.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/table.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/table-solution.jpg)
+SIGGRAPH: [SIGGRAPH.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/SIGGRAPH.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/SIGGRAPH-solution.jpg)
+Toys: [toys.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/toys.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/toys-solution.jpg)
+Snowman: [snowman.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/snowman.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/snowman-solution.jpg)
