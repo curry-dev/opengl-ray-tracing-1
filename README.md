@@ -1,4 +1,4 @@
-# opengl-ray-tracing-1
+# RAY TRACING USING OPENGL
 
 > [!NOTE]
 > This repository holds the completed result of my project but the source code.
