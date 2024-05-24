@@ -1,7 +1,7 @@
 # opengl-ray-tracing-1
 
-[!NOTE]
-This repository holds the completed result of my project but the source code.
+> [!NOTE]
+> This repository holds the completed result of my project but the source code.
 I cannot post the source code publicly here to avoid plagiarism, so I put it in another private repository. Although, I can show it upon request.
 
 
