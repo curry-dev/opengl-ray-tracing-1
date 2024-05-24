@@ -100,8 +100,13 @@ Here is the file corresponding to the above example: [test1.scene](https://viter
 ### MORE EXAMPLES
 
 Basic test scene with a triangle, ground plane and sphere: [test2.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/test2.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/test2-solution.jpg)
+
 Five spheres: [spheres.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/spheres.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/spheres-solution.jpg)
+
 A table and two boxes: [table.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/table.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/table-solution.jpg)
+
 SIGGRAPH: [SIGGRAPH.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/SIGGRAPH.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/SIGGRAPH-solution.jpg)
+
 Toys: [toys.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/toys.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/toys-solution.jpg)
+
 Snowman: [snowman.scene](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/snowman.scene) | [Solution](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/snowman-solution.jpg)
