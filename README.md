@@ -1,5 +1,7 @@
 # RAY TRACING USING OPENGL
 
+[class](https://viterbi-web.usc.edu/~jbarbic/cs420-s24/assign3/index.html)
+
 > [!NOTE]
 > This repository holds the completed result of my project but the source code.
 > I cannot post the source code publicly here to avoid plagiarism, so I put it in another private repository. Although, I can show it upon request.
